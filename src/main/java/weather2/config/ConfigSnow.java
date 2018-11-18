@@ -10,11 +10,11 @@ public class ConfigSnow implements IConfigCategory {
 
 
 	//snow
-	public static boolean Snow_PerformSnowfall = false;
-	//public static boolean Snow_ExtraPileUp = false;
+	public static boolean Snow_PerformSnowfall = true;
+	public static boolean Snow_ExtraPileUp = true;
 	public static int Snow_RarityOfBuildup = 64;
-	//public static int Snow_MaxBlockBuildupHeight = 3;
-	//public static boolean Snow_SmoothOutPlacement = false;
+	public static int Snow_MaxBlockBuildupHeight = 3;
+	public static boolean Snow_SmoothOutPlacement = true;
 
     @Override
     public String getName() {
